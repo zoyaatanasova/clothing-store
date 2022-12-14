@@ -1,0 +1,87 @@
+.footer {
+    padding: 64px 0;
+    background-color: #f1f1f1;
+}
+
+.footer h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.form {
+    text-align: center;
+}
+
+.form p {
+    font-size: 12px;
+}
+
+.form__row {
+    margin: 12px 0;
+}
+
+.form input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.footer__nav {
+    text-align: center;
+}
+
+.footer__nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.footer__nav li {
+    margin: 12px 0;
+}
+
+.footer__widget {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.footer__widget ul,
+.socials ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer__widget i,
+.socials i {
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+.footer__widget li {
+    margin: 12px 0;
+}
+
+.footer__widget a {
+    text-decoration: none;
+}
+
+.footer .button--small {
+    width: 100%;
+}
+
+.socials ul {
+    width: 100%;
+    display: flex;
+}
+
+.socials {
+    margin: 24px 0;
+}
+
+.socials i {
+    font-size: 18px;
+    margin-right: 4px;
+}

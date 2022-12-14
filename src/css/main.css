@@ -1,0 +1,39 @@
+.main {
+    flex: 1;
+    padding: 0 16px;
+    margin-left: -16px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px
+}
+
+.title h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.nav-shop ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-shop li:not(:first-child) {
+    padding-left: 16px;
+}
+
+.nav-shop {
+    font-size: 24px;
+}
+
+@media only screen and (max-width:1023px) {
+    .main {
+        padding: 0;
+        margin: 0;
+    }
+}

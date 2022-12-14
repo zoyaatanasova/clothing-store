@@ -1,0 +1,12 @@
+.credits {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.credits p {
+    padding: 24px 0;
+    margin: 0;
+
+}

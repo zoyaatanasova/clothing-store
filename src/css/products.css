@@ -1,0 +1,42 @@
+.products__head {
+    color: #757575;
+    padding: 0 16px;
+}
+
+.product {
+    padding-bottom: 24px;
+}
+
+.product img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.product figure {
+    position: relative;
+    margin: 0;
+}
+
+.product__tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 8px;
+}
+
+.product .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    display: none;
+}
+
+.product:hover .button {
+    display: inline-flex;
+}

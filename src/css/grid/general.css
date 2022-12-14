@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 0 16px;
+}
+
+.row {
+	margin: 0 -8px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+[class*="col-"] {
+	padding: 0 8px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}

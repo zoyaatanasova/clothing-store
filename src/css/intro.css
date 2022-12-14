@@ -1,0 +1,18 @@
+.intro {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 605px;
+    padding: 24px 32px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.intro h1,
+.intro h2 {
+    margin: 0;
+}
+
+.intro .button {
+    margin-top: 24px;
+}
